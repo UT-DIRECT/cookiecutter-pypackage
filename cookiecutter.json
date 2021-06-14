@@ -11,5 +11,6 @@
   "command_line_interface": ["Click", "Argparse", "No command-line interface"],
   "use_pytest": "n",
   "use_pypi_deployment_with_github_actions": "n",
-  "create_author_file": "n"
+  "create_author_file": "n",
+  "_copy_without_render": [".github/workflows/*.yml"]
 }
