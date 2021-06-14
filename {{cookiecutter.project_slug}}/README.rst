@@ -15,6 +15,7 @@ The University of Texas at Austin
 .. image:: https://github.com/UT-DIRECT/{{ cookiecutter.project_slug }}/actions/workflows/main.yml/badge.svg
         :target: https://github.com/UT-DIRECT/{{ cookiecutter.project_slug }}/actions
 
+{% set is_open_source = cookiecutter.open_source_license != 'Not open source' -%}
 {% if is_open_source %}
 .. image:: https://readthedocs.org/projects/{{ cookiecutter.project_slug | replace("_", "-") }}/badge/?version=latest
         :target: https://{{ cookiecutter.project_slug | replace("_", "-") }}.readthedocs.io/en/latest/?version=latest
